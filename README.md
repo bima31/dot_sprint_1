@@ -1,9 +1,12 @@
+restore db laravel_test di database mysql
+
+jalankan aplikasi
 ```bash
 php artisan serve
 ```
 
 ```python
-# artisan command​ yg melakukan fetching API data provinsi & kota
+# artisan command​ fetching API dari rajaongkir dengan data provinsi & kota
 php artisan app:get-provinsi-and-city
 ```
 
